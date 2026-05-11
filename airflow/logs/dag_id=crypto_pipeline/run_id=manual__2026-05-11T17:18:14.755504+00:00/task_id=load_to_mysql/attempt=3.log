@@ -1,0 +1,20 @@
+{"timestamp":"2026-05-11T17:28:18.803392Z","level":"info","event":"setup plugin alembic.autogenerate.schemas","logger":"alembic.runtime.plugins","filename":"plugins.py","lineno":37}
+{"timestamp":"2026-05-11T17:28:18.803489Z","level":"info","event":"setup plugin alembic.autogenerate.tables","logger":"alembic.runtime.plugins","filename":"plugins.py","lineno":37}
+{"timestamp":"2026-05-11T17:28:18.803522Z","level":"info","event":"setup plugin alembic.autogenerate.types","logger":"alembic.runtime.plugins","filename":"plugins.py","lineno":37}
+{"timestamp":"2026-05-11T17:28:18.803548Z","level":"info","event":"setup plugin alembic.autogenerate.constraints","logger":"alembic.runtime.plugins","filename":"plugins.py","lineno":37}
+{"timestamp":"2026-05-11T17:28:18.803570Z","level":"info","event":"setup plugin alembic.autogenerate.defaults","logger":"alembic.runtime.plugins","filename":"plugins.py","lineno":37}
+{"timestamp":"2026-05-11T17:28:18.803592Z","level":"info","event":"setup plugin alembic.autogenerate.comments","logger":"alembic.runtime.plugins","filename":"plugins.py","lineno":37}
+{"timestamp":"2026-05-11T17:28:18.902244Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":209}
+{"timestamp":"2026-05-11T17:28:18.902503Z","level":"info","event":"Filling up the DagBag from /Users/hager/work/dev/crypto-pipeline/dags/crypto_dag.py","logger":"airflow.dag_processing.dagbag.BundleDagBag","filename":"dagbag.py","lineno":469}
+{"timestamp":"2026-05-11T17:28:18.974141Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"UserWarning","filename":"/Users/hager/work/dev/crypto-pipeline/dags/crypto_dag.py","lineno":2,"logger":"py.warnings"}
+{"timestamp":"2026-05-11T17:28:18.984777Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-05-11T17:28:18.984878Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-05-11T17:28:18.985023Z","level":"info","event":"Current task name:load_to_mysql","logger":"task.stdout"}
+{"timestamp":"2026-05-11T17:28:18.985051Z","level":"info","event":"Dag name:crypto_pipeline","logger":"task.stdout"}
+{"timestamp":"2026-05-11T17:28:18.986033Z","level":"info","event":"✓ Using file: data/raw/crypto_20260511_172600.json","logger":"task.stdout"}
+{"timestamp":"2026-05-11T17:28:19.003002Z","level":"info","event":"✓ Bronze: raw JSON saved","logger":"task.stdout"}
+{"timestamp":"2026-05-11T17:28:19.004414Z","level":"info","event":"✓ Silver: 4 inserted | 0 skipped","logger":"task.stdout"}
+{"timestamp":"2026-05-11T17:28:19.006186Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":229}
+{"timestamp":"2026-05-11T17:28:19.012181Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-05-11T17:28:19.012229Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-05-11T17:28:19.012476Z","level":"info","event":"Task operator:<Task(PythonOperator): load_to_mysql>","logger":"task.stdout"}
