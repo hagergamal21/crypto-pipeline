@@ -1,3 +1,22 @@
+# Environment
 .env
 venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+
+# Data
 data/
+
+# Airflow
+airflow/logs/
+airflow/airflow.db
+airflow/airflow.db-shm
+airflow/airflow.db-wal
+airflow/standalone_admin_password.txt
+airflow/simple_auth_manager_passwords.json.generated
