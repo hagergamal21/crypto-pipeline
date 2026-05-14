@@ -13,6 +13,10 @@ __pycache__/
 # Data
 data/
 
+# IDE
+.idea/
+*.iml
+
 # Airflow
 airflow/logs/
 airflow/airflow.db
